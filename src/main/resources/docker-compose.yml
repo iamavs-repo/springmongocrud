@@ -2,12 +2,12 @@ version: '5'
 services:
    suntechglobalpvtltd:
       image: mongo:latest
-      container_name: suntechglobalpvtltd
+      container_name: "suntechglobalpvtltd"
       ports:
       - 27017:27017
    springdockercompose:
       image: springdockercomposenewimage:latest
-      container_name: springdockercomposenew
+      container_name: "suntechglobalpvtltd"
       ports:
       - 4748:4748
       links:
