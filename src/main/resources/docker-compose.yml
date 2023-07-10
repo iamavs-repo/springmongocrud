@@ -1,14 +1,14 @@
-version: '5'
-services:
-   suntech:
-      image: mongo:latest
-      container_name: suntech
-      ports:
-      - 27017:27017
-   springdockercompose:
-      image: springdockercompose:latest
-      container_name: springdockercompose
-      ports:
-      - 4748:4748
-      links:
-      - suntech
+#version: '5'
+#services:
+   #suntech:
+    #  image: mongo:latest
+     # container_name: "suntech"
+      #ports:
+      #- 27017:27017
+   #springdockercompose:
+    #  image: springdockercompose:latest
+     # container_name: "springdockercompose"
+      #ports:
+      #- 4748:4748
+      #links:
+      #- suntech
