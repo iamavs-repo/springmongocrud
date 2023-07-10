@@ -1,8 +1,8 @@
 server:
-  port: 4748
+   port: 4748
 spring:
-  data:
-    mongodb:
-      database: EmployeeManagementSystem
-      host: suntechglobalpvtltd
-      port: 27017
+   data:
+      mongodb:
+         database: EmployeeManagementSystem
+         host: suntechglobalpvtltd
+         port: 27017
