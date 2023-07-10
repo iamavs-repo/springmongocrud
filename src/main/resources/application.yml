@@ -4,5 +4,5 @@ spring:
    data:
       mongodb:
          database: EmployeeManagementSystem
-         host: suntechglobalpvtltd
+         host: suntech
          port: 27017

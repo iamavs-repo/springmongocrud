@@ -11,4 +11,4 @@ services:
       ports:
       - 4748:4748
       links:
-      - suntechglobalpvtltd
+      - suntech
