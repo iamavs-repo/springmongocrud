@@ -20,5 +20,6 @@ public class Employee {
 	private String salary;
 	private int leaveCount;
 	private String department;
+	private String lastName;
 
 }
