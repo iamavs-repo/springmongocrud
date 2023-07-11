@@ -28,5 +28,11 @@ public class EmployeeController {
 	{
 		return employeeService.getEmployee();
 	}
+	
+	@GetMapping("/testIt")
+	public String testing()
+	{
+		return "All Good";
+	}
 
 }
