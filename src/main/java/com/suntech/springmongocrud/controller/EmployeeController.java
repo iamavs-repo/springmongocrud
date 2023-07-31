@@ -29,10 +29,10 @@ public class EmployeeController {
 		return employeeService.getEmployee();
 	}
 	
-	@GetMapping("/testingIt")
+	@GetMapping("/testingItNowAndThen")
 	public String testingTodayAgain()
 	{
-		return "Working Absolutely Fine Here!";
+		return "Working Absolutely Fine Here Guys!";
 	}
 
 }
