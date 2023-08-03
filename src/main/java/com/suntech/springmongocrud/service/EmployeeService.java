@@ -30,9 +30,4 @@ public class EmployeeService {
 		return employeeRepository.findById(empId).get();
 	}
 
-	public Employee saveOrUpdate(Employee employee) {
-
-		return employeeRepository.save(employee);
-
-	}
 }
