@@ -25,9 +25,14 @@ public class EmployeeService {
 		return employeeRepository.findAll();
 	}
 
-	public Employee getBooksById(int empId) {
+	public Employee getEmployeesById(int empId) {
 
 		return employeeRepository.findById(empId).get();
 	}
 
+	public Employee saveOrUpdate(Employee employee) {
+
+		return employeeRepository.save(employee);
+
+	}
 }
