@@ -19,11 +19,15 @@ public class EmployeeService {
 		return employeeRepository.save(employee);
 
 	}
-	
+
 	public List<Employee> getEmployee() {
-		
+
 		return employeeRepository.findAll();
 	}
-	
+
+	public Employee getBooksById(int empId) {
+
+		return employeeRepository.findById(empId).get();
+	}
 
 }
