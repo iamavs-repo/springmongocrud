@@ -33,7 +33,7 @@ public class EmployeeController {
 		return "Working Absolutely Fine Here Guys!";
 	}
 
-	@GetMapping("/book/{bookid}")
+	@GetMapping("/employee/{empId}")
 	private Employee getEmployeesById(@PathVariable("empId") int empId) {
 		return employeeService.getBooksById(empId);
 	}
