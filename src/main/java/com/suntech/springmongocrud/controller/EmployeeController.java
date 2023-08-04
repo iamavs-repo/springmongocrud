@@ -28,15 +28,16 @@ public class EmployeeController {
 		return employeeService.getEmployee();
 	}
 
-	@GetMapping("/testingItNowAndThen")
+	@GetMapping("/testingItNowAndThenAndHere")
 	public String testingTodayAgain() {
-		return "Working Absolutely Fine Here Guys!";
+		return "Working Absolutely Fine Here Guys What about there!";
 	}
 
 	@GetMapping("/employee/{empId}")
 	public Employee getEmployeesById(@PathVariable("empId") int empId) {
 		return employeeService.getEmployeesById(empId);
 	}
+	
 	
 	
 
